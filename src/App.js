@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Header from './components/Header';
+import Footer from './components/footer';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import Discover from './components/Discover';
+import ServicesCard from './components/ServiceCard';
+import AboutPage from './pages/AboutPage';
+import BookingForm from './components/BookingForm';
+import OrderComplete from './components/OrderComplete';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Provider store={store}>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        
+<Route path="/discover" element={<Discover />} />
+<Route path="/services" element={<ServicesCard />} />
+<Route path="/about" element={<AboutPage />} />
+<Route path="/book" element={<BookingForm />} />
+
+<Route path="/order-complete" element={<OrderComplete />} />
+      </Routes>
+      <Footer />
+    </Router>
+    // </Provider>
   );
 }
 
 export default App;
+

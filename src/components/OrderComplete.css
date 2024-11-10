@@ -1,0 +1,159 @@
+/* .order-complete-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .order-complete-container p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+   */
+
+
+   /* latest */
+
+
+   /* Main container styling */
+.order-complete-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+  
+  /* Order details section */
+  .order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .user-info p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .order-status {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .status-icon img {
+    width: 70px;
+    height: 74px;
+    border-radius: 50%;
+    background-color: #61B069;
+    margin-right: 5px;
+  }
+  
+  .status-text h3 {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .status-text p {
+    margin: 4px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .status-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .status-text a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Booking summary section */
+  .booking-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .booking-info {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .booking-info div {
+    text-align: center;
+  }
+  
+  .booking-info span {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .booking-info strong {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .total-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .total-button img {
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .order-details {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .status-text {
+      margin-top: 10px;
+    }
+  
+    .booking-summary {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .booking-info {
+      flex-direction: column;
+    }
+  }
+  
+
+  button.submit-width-count-9947 {
+    margin-top: 33px;
+}

@@ -1,0 +1,65 @@
+
+  
+  @media (min-width:992px) {
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media (max-width:767px) {
+  
+    .services-container {
+      display: grid;
+      row-gap: 30px;
+    }
+  
+  }
+  
+
+
+  .service-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+
+  .ser-110-30 {
+    text-align: center;
+  }
+
+
+  .Services-total-1 {
+    margin-top: 3.6rem;
+  }
+
+
+  .contact-card {
+    background-color: #ECECEC !important;
+  }
